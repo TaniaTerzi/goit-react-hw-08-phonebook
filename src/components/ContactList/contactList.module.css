@@ -1,0 +1,25 @@
+.conteiner {
+    display: flex;
+    width: 400px;
+}
+
+.contactList {
+    list-style: none;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 15px;
+    align-items: baseline;
+    gap: 20px;
+}
+
+.button {
+    margin-left: 5px;
+}
+
+.text {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+

@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 375px;
+  margin: 0 auto;
+  padding: 25px 0;
+  border: solid 2px blueviolet;
+  border-radius: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  margin-bottom: 4px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.input {
+  margin-bottom: 16px;
+  font-size: 20px;
+}
+
+.button {
+  height: 30px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: blueviolet;
+}
+
+.button:hover {
+  cursor: pointer;
+  color: black;
+  font-weight: 800;
+  background-color: blueviolet;
+}
+
+.button:active {
+  background-color: blue;
+}
+
+.error {
+  color: red;
+}
